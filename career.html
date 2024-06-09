@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta
+    http-equiv="content-type"
+    content="text/html;charset=UTF-8"
+  />
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+   
+
+    <title>DS Developer Career</title>
+    <link rel="shortcut icon" href="all_imge/ds.png" type="image/x-icon">
+    <script type="text/javascript">
+      var fphp = window.fphp || {};
+      fphp.PATH_ROOT = "index.html";
+      fphp.PATH_HTTP = "index.html";
+      fphp.route = {
+        id: "39462",
+        com: "pages",
+        view: "module",
+        alias: null,
+        url: "\/career",
+      };
+
+      // Timezone offset from UTC (seconds)
+      fphp.serverTzOffsetSeconds = 0;
+      fphp.user = {
+        id: 0,
+        type: 4,
+        group: "Guest",
+        name: null,
+        username: null,
+        email: null,
+        session: "ceaafcbb6bf9583cc497ba2edddb2d66",
+        sid: "d41d8cd98f00b204e9800998ecf8427e",
+        private: null,
+        public: null,
+      };
+
+      fphp.serverTzOffsetString = "+00:00";
+      fphp.localTzOffsetSeconds = (0 - new Date().getTimezoneOffset()) * 60;
+      fphp.serverTimestamp = 1699163620;
+      // Whether to use Add to Cart popups
+      fphp.storeCartPopup = false;
+    </script>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="jquery-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="style.min.css" />
+<link rel="stylesheet" type="text/css" href="style-min.css" />
+<link rel="stylesheet" type="text/css" href="owl.carousel.min.css" />
+<link rel="stylesheet" type="text/css" href="owl.theme.default.min.css" />
+<script type='text/javascript' src='jquery.min.js'></script>
+<script type='text/javascript' src='bootstrap.min.js'></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script type='text/javascript' integrity='sha384-gEqmPs5aWSQz1JwC46POWNPOy5RXuQyzUfmJPfMXSjBB0zv07wS6StkxwjIfkvL0' crossorigin='anonymous' src='jqueryui-min.js'></script>
+<script type='text/javascript' integrity='sha256-M4R5pU+mkW7PJTrM34LJRCp1qHqKvbNdQh+tnS+dorQ=' crossorigin='anonymous' src='script-min1.js'></script>
+<script type='text/javascript' src='script-min.js'></script>
+<script type='text/javascript' integrity='sha256-4OK8Th0+5QJMThqlimytmqQvxjqMic4YATocjyuUh1w=' crossorigin='anonymous' src='owl.carousel-min.js'></script>
+<meta name="generator" content="fPHP" />
+<link rel="stylesheet" type="text/css" href="layout.css" />
+<link rel="stylesheet" type="text/css" href="form.css" />
+<link rel="stylesheet" type="text/css" href="listing.css" />
+<link rel="stylesheet" type="text/css" href="animate.css" />
+<link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css" />
+<link rel="stylesheet" type="text/css" href="customcss.css" />
+<link rel="stylesheet" type="text/css" href="responsive.css" />
+<script type='text/javascript' src='jquery.fancybox.min.js'></script>
+<script type='text/javascript' src='wow.min.js'></script>
+<script type='text/javascript' src='customjs.js'></script>
+
+<script src="https://kit.fontawesome.com/20994dd270.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        <!-- Module ID: 41353 -->
+        var a = 0;
+        $(window).scroll(function () {
+          var oTop = $(".f-counter-number").offset().top - window.innerHeight;
+          if (a == 0 && $(window).scrollTop() > oTop) {
+            $(".count").each(function () {
+              var $this = $(this);
+              var countTo = $this.attr("data-count");
+
+              $({ countNum: $this.text() }).animate(
+                { countNum: countTo },
+                {
+                  duration: 2500,
+                  easing: "swing",
+                  step: function () {
+                    $this.text(Math.floor(this.countNum));
+                  },
+                  complete: function () {
+                    $this.text(this.countNum);
+                  },
+                }
+              );
+            });
+            a = 1;
+          }
+        });
+
+        $(document).ready(function () {
+          $(".count-carousel").owlCarousel({
+            autoPlay: 4000, //Set AutoPlay to 3 seconds
+            items: 1,
+            animateOut: "fadeInUp",
+            animateIn: "fadeInUp",
+            pagination: true,
+            navigation: false,
+            nav: false,
+            navigationText: [
+              "<i class='fa fa-chevron-left'></i>",
+              "<i class='fa fa-chevron-right'></i>",
+            ],
+            loop: true,
+            itemsDesktop: [2000, 4],
+            itemsDesktopSmall: [1200, 4],
+            itemsTablet: [991, 2],
+            itemsMobile: [568, 1],
+          });
+        });
+
+        // <!-- Module ID: 40894 -->
+        $("#fModule-40894 .ph").each(function () {
+          var v = $("#fModule-40894 #" + this.id + " label").text();
+          $("#fModule-40894 #" + this.id + " input").attr("placeholder", v);
+        });
+
+        // <!-- Module ID: 40866 -->
+        document.onreadystatechange = function () {
+          if (document.readyState !== "complete") {
+            $(".f-loader").show();
+          } else {
+            $(".f-loader").hide();
+          }
+        };
+      });
+    </script>
+    <script
+      src="../cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+      integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="../cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+      integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw=="
+      crossorigin="anonymous"
+    />
+    <script>
+      new WOW().init();
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-JFMJTTD61Y"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-JFMJTTD61Y");
+    </script>
+
+    <style>
+    body { 
+      align-items: center; 
+      background: rgb(228, 220, 220); 
+    } 
+    
+    .wrapper { 
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      width: 100%; 
+    } 
+  
+    .wrapper .carousel { 
+      display: grid; 
+      grid-auto-flow: column; 
+      grid-auto-columns: calc((100% / 3) - 12px); 
+      gap: 16px; 
+      overflow-x: auto; 
+      scroll-snap-type: x mandatory; 
+      scroll-behavior: smooth; 
+      scrollbar-width: 0; 
+    } 
+    
+    .carousel::-webkit-scrollbar { 
+      display: none; 
+    } 
+    
+    .carousel :where(.card, .img) { 
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+    } 
+    
+    .carousel.dragging { 
+      scroll-snap-type: none; 
+      scroll-behavior: auto; 
+    } 
+    
+    .carousel.no-transition { 
+      scroll-behavior: auto; 
+    } 
+    
+    .carousel.dragging .card { 
+      cursor: grab; 
+      user-select: none; 
+    } 
+    
+    .carousel .card { 
+      scroll-snap-align: start; 
+      height: 450px; 
+      list-style: none; 
+      background: #fff; 
+      border-radius: 8px; 
+      display: flex; 
+      cursor: pointer; 
+      width: 98%; 
+      padding-bottom: 15px; 
+      align-items: center; 
+      justify-content: center; 
+      flex-direction: column; 
+    } 
+    
+    .card .img { 
+      margin-top: 30px;
+      width: 300px; 
+      object-fit: cover; 
+    } 
+    .card h2 { 
+      font-weight: 500; 
+      font-size: 1.56rem; 
+      margin: 30px 0 5px; 
+    } 
+    
+    
+    @media screen and (max-width: 900px) { 
+      .wrapper .carousel { 
+        grid-auto-columns: calc((100% / 2) - 9px); 
+    
+      } 
+    } 
+    
+    @media screen and (max-width: 600px) { 
+      .wrapper .carousel { 
+        grid-auto-columns: 100%; 
+    
+      } 
+    }
+    </style>
+  </head>
+
+  <body
+    class="com-pages view-module alias- path-career- cva-pages-module no-user not-home width-full"
+  >
+    <!-- Powered By fPHP -->
+
+    <div class="background-container">
+      <!-- Position: background -->
+      <div
+        class="fRegion region-background empty"
+        data-fphp-region="background"
+      ></div>
+    </div>
+
+    <div class="container-mobile">
+      <header class="fHeader">
+        <div class="fheaderToptwo">
+          <div class="container-fluid">
+            <!-- Position: headertop -->
+            <div
+              class="fRegion region-headertop empty"
+              data-fphp-region="headertop"
+            ></div>
+          </div>
+        </div>
+
+        <div class="navbar-header">
+          <div class="container-fluid">
+            <!-- Position: header -->
+            <div class="fRegion region-header" data-fphp-region="header">
+              <div
+                class="fModule f-logo-header col-xs-6 col-6 col-sm-5 col-md-4 col-lg-4 col-xl-3 col-xxl-3 f-module f-module-pages-custom"
+                data-fphp-entity-type="moduleinstance"
+                data-ui-init="module"
+                id="fModule-40875"
+                data-fphp-entity-id="40875"
+              >
+                <div class="f-module-content fModuleContent">
+                  <div>
+                    <div class="f-logos">
+                      <a class="main-logo" href="index.html"
+                        ><img
+                          alt="DSDeveloper logo"
+                          src="all_imge/DSDeveloper.png"
+                        />
+                      </a>
+                      <a class="white-logo" href="index.html"
+                        ><img
+                          alt="DSDeveloper logo"
+                          src="all_imge/DSDeveloper1.png"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="fModule menu-horizontal menu-hover-1 col-xs-6 col-6 col-sm-7 col-md-8 col-lg-8 col-xl-9 col-xxl-9 f-module f-module-pages-menu"
+                data-fphp-entity-type="moduleinstance"
+                data-ui-init="module"
+                id="fModule-40870"
+                data-fphp-entity-id="40870"
+              >
+                <div class="f-module-content fModuleContent">
+                  <div
+                    id="fMenu-toggle-40870"
+                    class="d-block d-lg-none d-xl-none d-xxl-none visible-xs d-sm-block visible-sm d-md-block visible-md navbar-toggle-container"
+                  >
+                    <a
+                      class="navbar-toggle collapsed"
+                      data-toggle="collapse"
+                      href="#fMenu-40870"
+                      aria-expanded="false"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#fMenu-40870"
+                    >
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </a>
+                  </div>
+                  <nav
+                    aria-label="Main Menu"
+                    id="fMenu-40870"
+                    class="d-lg-block d-xl-block d-xxl-block visible-sm-block visible-md-block visible-lg-block visible-xl-block visible-xsl-block d-none hidden-xs d-sm-none hidden-sm d-md-none hidden-md"
+                  >
+                    <ul class="fMenu">
+                      <li id="menu-item-26454" class="menu-item">
+                        <a tabindex="0" href="index.html" title=""
+                          ><span class="menu-item-icon"></span
+                          ><span class="menu-item-text"
+                            ><i class="fa-solid fa-house"></i></span
+                        ></a>
+                      </li>
+                      <li id="menu-item-26455" class="menu-item">
+                        <a tabindex="0" href="about.html" title="About"
+                          ><span class="menu-item-icon"></span
+                          ><span class="menu-item-text">About</span></a
+                        >
+                      </li>
+                      <li id="menu-item-26456" class="menu-item">
+                        <a tabindex="0" href="services.html" title="Services"
+                          ><span class="menu-item-icon"></span
+                          ><span class="menu-item-text">Services</span></a
+                        >
+                      </li>
+                      <li id="menu-item-26457" class="menu-item selected">
+                        <a tabindex="0" href="career.html" title="Career"
+                          ><span class="menu-item-icon"></span
+                          ><span class="menu-item-text">Career</span></a
+                        >
+                      </li>
+                      <li id="menu-item-26460" class="menu-item">
+                        <a tabindex="0" href="blog.html" title="Blog"
+                          ><span class="menu-item-icon"></span
+                          ><span class="menu-item-text">Blog</span></a
+                        >
+                      </li>
+                      <li id="menu-item-26458" class="menu-item">
+                        <a tabindex="0" href="contact-us.html" title="Contact"
+                          ><span class="menu-item-icon"></span
+                          ><span class="menu-item-text">Contact</span></a
+                        >
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </header>
+
+      <div class="head-padding"></div>
+
+      <div id="fContent">
+        <div class="fPageTitle">
+          <div class="container">
+            <h1 id="heading">Career</h1>
+          </div>
+        </div>
+
+        <div class="row row-matter-sidebar">
+          <section id="fMatter" class="col-12">
+            <div id="f-messages"></div>
+            <!-- Position: page-39462 -->
+            <div
+              class="fRegion region-page-39462"
+              data-fphp-region="page-39462"
+            >
+              
+
+<div class="wrapper"> 
+  <ul class="carousel"> 
+    <li class="card"> 
+      <div class="img"><img src= "all_imge/DiverseChallenges.jpg"alt="" draggable="false"> </div> 
+      <h2 style=" font-weight:bold;"> 
+        Diverse Challenges 
+      </h2> 
+      <p class="mx-5">At our agency, you won't be limited to a single niche or industry. You'll have the chance to work on a wide range of projects for clients from various sectors, keeping your work fresh and exciting.</p> 
+    </li> 
+    <li class="card"> 
+      <div class="img"><img src= "all_imge/ExcitingProjects.jpg" alt="" draggable="false"> </div> 
+      <h2 style=" font-weight:bold;">Exciting Projects</h2> 
+      <p class="mx-5">Every day brings new projects and fresh challenges. The fast-paced nature of digital marketing means you'll never get bored. Whether you're launching a new campaign or optimizing a website...</p>
+    </li> 
+    <li class="card"> 
+      <div class="img"><img src= "all_imge/CollaborativeEcosystem.jpg" alt="" draggable="false"> </div> 
+      <h2 style=" font-weight:bold;">Collaborative Ecosystem</h2> 
+      <p class="mx-5">We believe that great ideas come from diverse minds working together. Our collaborative work environment fosters creativity, encourages knowledge sharing, and provides...</p> 
+    </li> 
+    <li class="card"> 
+      <div class="img"><img src= "all_imge/LearningOpportunities.jpg"alt="" draggable="false"> </div> 
+      <h2 style=" font-weight:bold;">Learning Opportunities</h2> 
+      <p class="mx-5">In the digital realm, learning never stops. We offer continuous training and development programs to help you stay ahead of industry trends. Whether it's mastering the latest marketing...</p> 
+    </li> 
+    <li class="card"> 
+      <div class="img"><img src="all_imge/CreativeFreedom.jpg"alt="" draggable="false"> </div> 
+      <h2 style=" font-weight:bold;">Creative Freedom</h2> 
+      <p class="mx-5">Creativity is at the heart of digital marketing and we encourage our team members to think outside the box. You'll have the freedom to explore innovative solutions, experiment with new approaches..</p> 
+    </li> 
+    <li class="card"> 
+      <div class="img"><img src="all_imge/ClientExposure.jpg"alt="" draggable="false"> </div> 
+      <h2 style=" font-weight:bold;">Client Exposure</h2> 
+      <p class="mx-5">Working with global clients from different industries means you'll gain valuable insights into their businesses. This exposure can be a stepping stone for future career opportunities in various fields.</p> 
+    </li> 
+    <li class="card"> 
+      <div class="img"><img src="all_imge/Flexibility.jpg"alt="" draggable="false"> </div> 
+      <h2 style=" font-weight:bold;">Flexibility</h2> 
+      <p class="mx-5">We believe that a healthy work-life balance is essential for your well-being and creativity. Our flexible work arrangements and hybrid-office policies ensure you can excel in your career while enjoying life...</p> 
+    </li> 
+    <li class="card"> 
+      <div class="img"><img src="all_imge/CareerProgression.jpg"alt="" draggable="false"> </div> 
+      <h2 style=" font-weight:bold;">Career Progression </h2> 
+      <p class="mx-5">Your growth is our priority. Our agency fosters a culture of meritocracy, where your performance and dedication are rewarded with opportunities for advancement. Your career path is limited...</p> 
+    </li> 
+    <li class="card"> 
+      <div class="img"><img src="all_imge/FunandVibrantCulture.jpg"alt="" draggable="false"> </div> 
+      <h2 style=" font-weight:bold;">Fun and Vibrant Culture</h2> 
+      <p class="mx-5">Work hard, party harder. We believe that a fun and vibrant workplace is essential for creativity and productivity. From team-building activities to social events, we make sure that your journey...</p> 
+    </li> 
+    <li class="card"> 
+      <div class="img"><img src="all_imge/PersonalGrowth.jpg"alt="" draggable="false"> </div> 
+      <h2 style=" font-weight:bold;">Personal Growth</h2> 
+      <p class="mx-5">In a digital agency, you'll not only grow professionally but also personally. The skills you acquire, the challenges you overcome, and the people you meet will all contribute to your personal development.</p> 
+    </li> 
+    
+  </ul> 
+</div> 
+
+              <div
+                class="fModule f-shikha wow animated fadeInUp career-shikha f-module f-module-gallery-list"
+                data-fphp-entity-type="moduleinstance"
+                data-ui-init="module"
+                id="fModule-41445"
+                data-fphp-entity-id="41445"
+              >
+                <div class="f-module-content fModuleContent">
+                  <ul class="fGalleryImages fGalleryList">
+                    <li id="fModule--fGalleryItem-207554" class="fGalleryItem fGalleryItem-207554">
+                      <a class="fGalleryImage"><img alt="shikha kedia bharadwaj" src="all_imge/11.png"/></a>
+
+                      <div class="fGalleryText">
+                        <div class="inner-item">
+                          <p>
+                            Success isn't just about what we achieve as a
+                            company; it's also about the incredible journey we
+                            take together. Our team at DS.Developer is our greatest
+                            asset, and we're always on the lookout for talented
+                            individuals to join us in shaping the future.
+                          </p>
+
+                          <div class="name-texts">
+                            <h3>
+                              Dhruvin Beladiya
+                              <span>chief executive Developer</span>
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+             
+            </div>
+          </section>
+        </div>
+      </div>
+     
+        <footer id="fFooter">
+          <div class="container">
+            <!-- Position: footer -->
+            <div class="fRegion region-footer" data-fphp-region="footer">
+              <div class="fModule f-subscribe-form-footer col-xs-12 col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7 col-xxl-7 f-module f-module-user-form" data-fphp-entity-type="moduleinstance" data-ui-init="module" id="fModule-40894" data-fphp-entity-id="40894">
+                <div class="f-module-title fModuleTitle">
+                  <h3>
+                    <span>develop project in Security</span>provide project in 100% Security 
+                  </h3>
+                  <div class="f-media-image securityimg">
+                    <a class="f-media-image-link">
+                      <img src="all_imge/secueiry.png" /></a>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="fModule f-footer-rocket-image col-xs-12 col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5 f-module f-module-pages-custom-photo" 
+              data-fphp-entity-type="moduleinstance" data-ui-init="module" id="fModule-40896" data-fphp-entity-id="40896">
+                <div class="f-module-content fModuleContent">
+                  <div class="f-media">
+                    <div class="f-media-image">
+                      <a class="f-media-image-link">
+                        <img src="all_imge/111.png" class="rounded-top-pill mt-3" style="width: 300px;border-radius: 10px; margin-left: 15px;"/></a>
+                    </div>
+                    <div class="f-media-text"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="fModule f-about-footer col-xs-12 col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 f-module f-module-pages-custom"
+                data-fphp-entity-type="moduleinstance" data-ui-init="module" id="fModule-40897" data-fphp-entity-id="40897">
+                <div class="f-module-title fModuleTitle">
+                  <h3>DS Developer ,Digital Creativity</h3>
+                </div>
+                <div class="f-module-content fModuleContent">
+                  <div>
+                    <p>
+                      Elevating brands online - the digital marketing catalyst for
+                      growth and visibility.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="fModule f-quick-links-menu col-xs-12 col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 f-module f-module-pages-menu"
+                data-fphp-entity-type="moduleinstance" data-ui-init="module" id="fModule-40898" data-fphp-entity-id="40898">
+                <div class="f-module-content fModuleContent">
+                  <nav aria-label="Footer menu" id="fMenu-40898" class="">
+                    <ul class="fMenu">
+                      <li id="menu-item-26480" class="menu-item">
+                        <a tabindex="0" href="about.html" title="About"><span class="menu-item-icon"></span><span class="menu-item-text">About</span></a>
+                      </li>
+                      <li id="menu-item-26483" class="menu-item">
+                        <a tabindex="0" href="services.html" title="Services"><span class="menu-item-icon"></span><span class="menu-item-text">Services</span></a>
+                      </li>
+                      <li id="menu-item-26484" class="menu-item">
+                        <a tabindex="0" href="contact-us.html" title="Contact Us"><span class="menu-item-icon"></span><span class="menu-item-text">Contact Us</span></a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div class="fModule f-quick-links-menu col-xs-12 col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 f-module f-module-pages-menu"
+                data-fphp-entity-type="moduleinstance" data-ui-init="module" id="fModule-40899" data-fphp-entity-id="40899">
+                <div class="f-module-content fModuleContent">
+                  <nav aria-label="Footer menu 2" id="fMenu-40899" class="">
+                    <ul class="fMenu">
+                      <li id="menu-item-26707" class="menu-item">
+                        <a tabindex="0" href="blog.html" title="Blogs"><span class="menu-item-icon"></span><span class="menu-item-text">Blogs</span></a>
+                      </li>
+                      <li id="menu-item-26708" class="menu-item">
+                        <a tabindex="0" href="career.html" title="Career"><span class="menu-item-icon"></span><span class="menu-item-text">Career</span></a>
+                      </li>
+                      <li id="menu-item-26719" class="menu-item">
+                        <a tabindex="0" href="privacy-policy.html"
+                          title="Privacy Policy" ><span class="menu-item-icon"></span ><span class="menu-item-text">Privacy Policy</span></a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div class="fModule f-social-links-footer col-xs-12 col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 f-module f-module-pages-custom"
+              data-fphp-entity-type="moduleinstance" data-ui-init="module" id="fModule-40900" data-fphp-entity-id="40900">
+              <div class="f-module-content fModuleContent">
+                <div>
+                  <h5>Let&#39;s Chat</h5>
+                  <p>
+                    <a href="mailto:dhruvinbeladiya2608@gmail.com"
+                      >dhruvinbeladiya2608@gmail.com</a>
+                  </p>
+                  <ul>
+                    <li>
+                      <a href="https://www.facebook.com/profile.php?id=100076147735426&mibextid=ZbWKwL" target="_blank" ><img alt="facebook" src="all_imge/facebook.jpg" /></a>
+                    </li>
+                    <li>
+                      <a href="https://instagram.com/d_s_developer?igshid=NzZlODBkYWE4Ng==" target="_blank" ><img alt="instagram" src="all_imge/instagram.jpg" /></a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/ds-developer-30a5b829b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" ><img alt="linkedin" src="all_imge/linkedin.jpg" /></a>
+                    </li>
+                    <li>
+                      <a href="https://youtube.com/@DSDeveloper-DigitalCreativity?si=Iaj96o73D6iu1DZP" target="_blank" ><img alt="youtube" src="all_imge/youtube.jpg"/></a>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+              <div
+                class="fModule f-copy-right f-module f-module-pages-custom"
+                data-fphp-entity-type="moduleinstance"
+                data-ui-init="module"
+                id="fModule-40882"
+                data-fphp-entity-id="40882"
+              >
+                <div class="f-module-content fModuleContent">
+                  <div>
+                    <div class=" Developer">
+                      <a href="https://instagram.com/dhruvin_beladiya_26?igshid=OGQ5ZDc2ODk2ZA=="> Developer By:- Dhruvin Beladiya <img src="all_imge/instagram.jpg" alt=""></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      <script
+        type="text/javascript"
+        src="../s7.addthis.com/js/300/addthis_widget.js#pubid=ra-610e1203aba307b6"
+      ></script>
+    </div>
+
+    <script src="../cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script
+      src="../cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      // master GSAP and ScrollTrigger
+      // https://www.creativeCodingClub.com
+      // Unlock over 240 video lessons
+
+      $("#fModule-41403 .f-module-content ul li .fBlogTitle h4 a").removeAttr(
+        "href"
+      );
+
+      if ($(window).width() >= 992) {
+        gsap.registerPlugin(ScrollTrigger);
+
+        const races = document.querySelector(".races");
+        console.log(races.offsetWidth);
+
+        function getScrollAmount() {
+          let racesWidth = races.scrollWidth;
+          return -(racesWidth - window.innerWidth);
+        }
+
+        const tween = gsap.to(races, {
+          x: getScrollAmount,
+          duration: 3,
+          ease: "none",
+        });
+
+        ScrollTrigger.create({
+          trigger: ".racesWrapper",
+          start: "top 13%",
+          end: () => `+=${getScrollAmount() * -1}`,
+          pin: true,
+          animation: tween,
+          scrub: 1,
+          invalidateOnRefresh: true,
+          markers: false,
+        });
+      }
+
+      document.addEventListener("DOMContentLoaded", function() { 
+	const carousel = document.querySelector(".carousel"); 
+	const arrowBtns = document.querySelectorAll(".wrapper i"); 
+	const wrapper = document.querySelector(".wrapper"); 
+
+	const firstCard = carousel.querySelector(".card"); 
+	const firstCardWidth = firstCard.offsetWidth; 
+
+	let isDragging = false, 
+		startX, 
+		startScrollLeft, 
+		timeoutId; 
+
+	const dragStart = (e) => { 
+		isDragging = true; 
+		carousel.classList.add("dragging"); 
+		startX = e.pageX; 
+		startScrollLeft = carousel.scrollLeft; 
+	}; 
+
+	const dragging = (e) => { 
+		if (!isDragging) return; 
+	
+		// Calculate the new scroll position 
+		const newScrollLeft = startScrollLeft - (e.pageX - startX); 
+	
+		// Check if the new scroll position exceeds 
+		// the carousel boundaries 
+		if (newScrollLeft <= 0 || newScrollLeft >= 
+			carousel.scrollWidth - carousel.offsetWidth) { 
+			
+			// If so, prevent further dragging 
+			isDragging = false; 
+			return; 
+		} 
+	
+		// Otherwise, update the scroll position of the carousel 
+		carousel.scrollLeft = newScrollLeft; 
+	}; 
+
+	const dragStop = () => { 
+		isDragging = false; 
+		carousel.classList.remove("dragging"); 
+	}; 
+
+	const autoPlay = () => { 
+	
+		// Return if window is smaller than 800 
+		if (window.innerWidth < 800) return; 
+		
+		// Calculate the total width of all cards 
+		const totalCardWidth = carousel.scrollWidth; 
+		
+		// Calculate the maximum scroll position 
+		const maxScrollLeft = totalCardWidth - carousel.offsetWidth; 
+		
+		// If the carousel is at the end, stop autoplay 
+		if (carousel.scrollLeft >= maxScrollLeft) return; 
+		
+		// Autoplay the carousel after every 2500ms 
+		timeoutId = setTimeout(() => 
+			carousel.scrollLeft += firstCardWidth, 2500); 
+	}; 
+
+	carousel.addEventListener("mousedown", dragStart); 
+	carousel.addEventListener("mousemove", dragging); 
+	document.addEventListener("mouseup", dragStop); 
+	wrapper.addEventListener("mouseenter", () => 
+		clearTimeout(timeoutId)); 
+	wrapper.addEventListener("mouseleave", autoPlay); 
+
+	// Add event listeners for the arrow buttons to 
+	// scroll the carousel left and right 
+	arrowBtns.forEach(btn => { 
+		btn.addEventListener("click", () => { 
+			carousel.scrollLeft += btn.id === "left" ? 
+				-firstCardWidth : firstCardWidth; 
+		}); 
+	}); 
+}); 
+
+    </script>
+  </body>
+
+  <!-- Mirrored from www.bitquest.net/career by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 05 Nov 2023 05:55:16 GMT -->
+</html>
+
+<button
+  class="nav-up wow pulse"
+  data-wow-duration="2s"
+  data-wow-iteration="100"
+  id="nav-up"
+  title="Scroll to top"
+  style="
+    visibility: visible;
+    animation-duration: 2s;
+    animation-iteration-count: 100;
+    animation-name: pulse;
+    display: block;
+  "
+>
+  <span id="btn-vibrate"><i class="fa fa-angle-up"></i></span>
+</button>

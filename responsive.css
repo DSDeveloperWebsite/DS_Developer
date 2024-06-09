@@ -1,0 +1,759 @@
+@media(max-width:1600px) {
+    .f-shikha .fGalleryItem .ItemfinnerGallery p::before {
+        left: -28%
+    }
+
+    .f-shikha {
+        background-size: 165%
+    }
+
+    .f-shikha .fGalleryItem .fGalleryText p {
+        font-size: 40px
+    }
+}
+
+@media(max-width:1399.9px) {
+    .f-blogs-categories .fGalleryItem {
+        padding: 10px
+    }
+
+    .f-banner-home .fGalleryImage img {
+        height: 600px
+    }
+
+    .f-solution-we-provide .fGalleryItem .ItemfinnerGallery .fGalleryImage {
+        height: 70px;
+        width: 70px
+    }
+
+    .f-solution-we-provide .fGalleryItem .ItemfinnerGallery .fGalleryImage img {
+        width: 50px;
+        height: 50px
+    }
+
+    .f-about-image-home .fGalleryItem:first-child::after {
+        right: 10%
+    }
+}
+
+@media(max-width:1299.9px) {
+    .f-video-section .fGalleryText .item {
+        width: 950px
+    }
+
+    .f-about-why-bitquest .nav-pills li {
+        padding-right: 34px
+    }
+
+    .f-shikha .fGalleryItem .fGalleryText p {
+        font-size: 35px;
+        line-height: 40px
+    }
+
+    .f-shikha .fGalleryItem .ItemfinnerGallery p::before {
+        width: 80px;
+        height: 80px;
+        left: -22%
+    }
+}
+
+@media(max-width:1199.99px) {
+    .f-blogs-categories .fGalleryItem .ItemfinnerGallery .fGalleryImage img {
+        height: 250px
+    }
+
+    .f-banner-home .fGalleryImage img {
+        height: 500px
+    }
+
+    .f-banner-home .fGalleryText .col-text .items h1 {
+        font-size: 55px;
+        line-height: 55px
+    }
+
+    .f-banner-home .fGalleryText .col-text .items h6 {
+        padding-left: 0;
+        font-size: 22px
+    }
+
+    .f-banner-home .fGalleryText .col-text .items h5,
+    .f-shikha .fGalleryItem .fGalleryText h3 {
+        font-size: 20px
+    }
+
+    .f-career-jobs li.fGalleryItem .ItemfinnerGallery h3 {
+        font-size: 22px
+    }
+
+    .f-career-jobs li.fGalleryItem .ItemfinnerGallery .fButton {
+        padding: 12px 30px
+    }
+
+    .f-career-jobs li.fGalleryItem .ItemfinnerGallery h3 span {
+        font-size: 15px
+    }
+
+    .f-shikha .fGalleryItem .fGalleryText p {
+        font-size: 30px
+    }
+
+    .f-shikha .fGalleryItem .fGalleryText {
+        padding-left: 4%
+    }
+
+    .f-shikha .fGalleryItem .ItemfinnerGallery p::before {
+        width: 70px;
+        height: 70px;
+        left: -15%;
+        top: -69px
+    }
+
+    .f-about-why-bitquest .nav-pills .nav-link {
+        font-size: 17px
+    }
+
+    .f-about-why-bitquest .tab-content h3 {
+        margin-top: 40px
+    }
+}
+
+@media(max-width:1199.9px) {
+    .f-about-image {
+        height: 900px
+    }
+
+    #fModule--fGalleryItem-207561 {
+        top: 300px
+    }
+
+    .f-about-image-home .fGalleryItem:first-child::after {
+        right: 0
+    }
+
+    .f-about-image-home .fGalleryItem:first-child img {
+        left: 10%
+    }
+
+    .f-blog-first-section {
+        width: 100%;
+        padding-right: 0
+    }
+
+    .f-blog-menu-staff {
+        width: 100%;
+        order: -1;
+        margin-bottom: 40px
+    }
+
+    .f-blog-f-container {
+        padding: 20px
+    }
+
+    .f-blog-follow-subs,
+    .f-blog-small {
+        width: 100%
+    }
+
+    .f-blog-follow-subs .row-blog-follow-subs {
+        justify-content: space-between
+    }
+
+    .f-blog-follow-subs .row-blog-follow-subs .fModule {
+        width: 49%
+    }
+
+    .f-blog-subscribe-page {
+        margin-top: 12px !important
+    }
+
+    .f-blog-first-section {
+        padding-bottom: 20px !important
+    }
+
+    .races .col-item {
+        width: 40vw
+    }
+}
+
+@media(max-width:991.9px) {
+    .f-testimonial-container .fModule {
+        padding-bottom: 2rem !important
+    }
+
+    .f-partners {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important
+    }
+
+    .f-blogs-categories {
+        padding-top: 12% !important
+    }
+
+    .f-button-blogs {
+        bottom: 10%
+    }
+
+    .f-about-image,
+    .f-video-background-blog .f-gallery-video {
+        height: 1000px
+    }
+
+    .f-services-home .f-gallery-video .fullscreen-bg__video {
+        height: 100%;
+        object-fit: cover
+    }
+
+    .f-services-home .row-headings .col-12 .item {
+        width: 100%
+    }
+
+    .f-services-home .row-headings .col-12 .item .fModuleTitle h3,
+    .f-services-home .row-headings .col-12 .item .fModuleTitle h3 span,
+    .f-services-home .row-headings .col-12 div.item p {
+        text-align: center
+    }
+
+    .f-video-section .fGalleryText .item {
+        width: 720px
+    }
+
+    .f-video-section .fGalleryText .item .video-image a img {
+        width: 70px
+    }
+
+    .f-banner-home .fGalleryImage img {
+        height: 370px
+    }
+
+    .f-banner-home .fGalleryText .col-text {
+        padding-top: 5%
+    }
+
+    header.fHeader .menu-horizontal nav>ul>li>a {
+        color: #fff !important;
+        background: linear-gradient(to right, var(--brand-color-theme-2) 0, var(--brand-color-theme-1) 50%, var(--brand-color-theme-2)100%);
+        position: relative;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -o-transition: .5s;
+        -ms-transition: .5s;
+        transition: .5s;
+        background-position: right center;
+        background-size: 200% auto;
+        box-shadow: rgba(99, 99, 99, .2) 0 2px 8px 0;
+        margin-top: -1px;
+        border: 0 !important
+    }
+
+    .menu-horizontal ul li a::before,
+    .menu-horizontal ul li a:hover::before,
+    .menu-horizontal ul li.selected a::before {
+        width: 0 !important
+    }
+
+    header.fHeader {
+        position: sticky;
+        top: 0
+    }
+
+    header.fHeader.active .navbar-header::before {
+        width: 0
+    }
+
+    header .navbar-toggle .icon-bar {
+        background-color: var(--brand-color-theme-1)
+    }
+
+    .f-about-image-home .fGalleryItem:first-child::after {
+        right: 22%
+    }
+
+    footer #fModule-40899 {
+        padding-left: 11.25px
+    }
+
+    .f-inner-banner .ItemfinnerGallery .fGalleryText h3 {
+        font-size: 40px;
+        line-height: 45px
+    }
+
+    .f-inner-banner .ItemfinnerGallery .fGalleryText p {
+        font-size: 18px
+    }
+
+    .f-inner-banner {
+        padding-top: 70px !important
+    }
+
+    .not-home header.fHeader .f-logos .main-logo {
+        display: block
+    }
+
+    .not-home header.fHeader .f-logos .white-logo {
+        display: none
+    }
+
+    footer #fModule-40898,
+    footer #fModule-40900 {
+        padding-left: 70px
+    }
+
+    .f-blog-subscribe-page .fForm .buttons input {
+        background-position: center
+    }
+
+    .f-blog-subscribe-page .fForm .buttons input,
+    .f-blog-subscribe-page .fForm input {
+        border-bottom: 0
+    }
+
+    .f-blog-subscribe-page .fForm {
+        border-bottom: 1px solid #dedede;
+        position: relative;
+        bottom: -6px
+    }
+
+    .f-blog-first-section .f-list-content .f-list-item .f-list-item-container .f-list-item-teaser-image img {
+        height: auto
+    }
+
+    .f-blog-first-section .f-list-content .f-list-item .f-list-item-container .f-list-item-title {
+        padding: 15px
+    }
+
+    .f-blog-first-section .f-list-content .f-list-item .f-list-item-container .f-list-item-title a {
+        font-size: 16px
+    }
+
+    .fPageTitle {
+        padding-top: 70px
+    }
+
+    .f-about-why-bitquest .nav-pills {
+        width: 100%;
+        position: relative;
+        padding-left: 0;
+        padding-bottom: 30px
+    }
+
+    .f-about-why-bitquest .tab-content h3 {
+        margin-top: 40px
+    }
+
+    .f-about-mva .tab-content .row .col-12:nth-child(2) {
+        order: -1;
+        margin-top: 120px
+    }
+
+    .f-about-mva .tab-content h3 {
+        margin-top: 35px
+    }
+
+    .f-career-jobs ul.fGalleryImages {
+        justify-content: center
+    }
+
+    .f-blogs-inner-page-blog .fBlogList {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around
+    }
+
+    .f-blogs-inner-page-blog .fBlogList li {
+        width: 48%;
+        margin: 0
+    }
+
+    .f-blogs-inner-page-blog,
+    .f-new-solution .owl-wrapper {
+        padding: 0 !important
+    }
+
+    .f-shikha .fGalleryItem .fGalleryText p {
+        font-size: 25px;
+        line-height: 28px
+    }
+
+    .f-shikha .fGalleryItem .fGalleryText h3 {
+        font-size: 17px
+    }
+
+    .f-shikha .fGalleryItem .fGalleryText h3 span {
+        font-size: 15px
+    }
+
+    .f-shikha .fGalleryItem .ItemfinnerGallery p::before {
+        width: 50px;
+        height: 50px;
+        left: -12%;
+        top: -45px
+    }
+
+    .f-team-section li.fGalleryItem .ItemfinnerGallery .fGalleryText div.f-links a {
+        bottom: 30.8%
+    }
+
+    .f-new-solution .owl-theme .owl-controls {
+        margin-top: 0
+    }
+
+    .races {
+        flex-wrap: wrap;
+        padding: 20px
+    }
+
+    .races .col-item {
+        margin-right: 0;
+        width: 50%
+    }
+
+    .races .col-item .item {
+        margin-right: 0
+    }
+}
+
+@media(max-width:820.9px) {
+    .f-shikha {
+        background-size: 200%
+    }
+
+    .f-about-image {
+        height: 1100px
+    }
+
+    #fModule--fGalleryItem-207561 {
+        top: 400px
+    }
+}
+
+@media(max-width:767.9px) {
+    .f-video-background-blog .f-gallery-video {
+        clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%);
+        height: 900px
+    }
+
+    .f-blogs-categories {
+        padding-top: 10% !important
+    }
+
+    .f-button-blogs {
+        bottom: 8%
+    }
+
+    .f-video-section .fGalleryText .item {
+        width: 500px
+    }
+
+    .f-video-section .fGalleryText .item .video-image a img {
+        width: 64px
+    }
+
+    .f-banner-home .fGalleryText .item .container .row .col-12,
+    .f-banner-home .fGalleryText .item .container .row .col-12.col-img,
+    .f-blog-small .f-list-content .f-list-item .f-list-item-container .f-list-item-teaser-image img {
+        height: auto
+    }
+
+    .f-banner-home .fGalleryImage img {
+        height: 500px
+    }
+
+    .f-banner-home .fGalleryText .item .container .row .col-12.col-text {
+        padding-top: 5%
+    }
+
+    .f-about-image,
+    .f-services-home .f-gallery-video {
+        height: 800px
+    }
+
+    .f-about-image-home .fGalleryItem:first-child::after {
+        right: 0
+    }
+
+    footer #fModule-40898,
+    footer #fModule-40900 {
+        padding-left: 11.25px
+    }
+
+    .f-banner-home .fGalleryText .item .col-img,
+    .f-inner-banner .ItemfinnerGallery .fGalleryImage {
+        display: none
+    }
+
+    .f-blog-follow-subs .row-blog-follow-subs .fModule,
+    .f-inner-banner .ItemfinnerGallery .fGalleryText,
+    .f-shikha .fGalleryItem .fGalleryText {
+        width: 100%
+    }
+
+    .f-blog-small .f-list-content .f-list-item {
+        padding: 20px
+    }
+
+    .f-blog-f-container {
+        padding-bottom: 0
+    }
+
+    .f-blog-subscribe-page .fForm {
+        bottom: 0
+    }
+
+    .f-shikha-kedia .fGalleryItem .ItemfinnerGallery p {
+        font-size: 20px
+    }
+
+    .f-shikha-kedia .fGalleryItem .ItemfinnerGallery p::before {
+        width: 50px
+    }
+
+    .f-blogs-inner-page-blog .fBlogList li {
+        width: 94%
+    }
+
+    .f-shikha .ItemfinnerGallery {
+        flex-wrap: wrap
+    }
+
+    .f-shikha .fGalleryImage {
+        border-right: 0;
+        width: 100%;
+        text-align: center
+    }
+
+    .f-shikha .fGalleryImage img {
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+        border-radius: 200px;
+        background-color: #fff;
+        margin-top: 40px;
+        border: 3px solid var(--brand-color-theme-secondory-2)
+    }
+
+    .f-shikha .fGalleryItem .ItemfinnerGallery p {
+        padding-top: 20px;
+        width: 100%
+    }
+
+    .f-shikha .fGalleryItem .ItemfinnerGallery p::before {
+        left: -2%
+    }
+
+    .f-team-section li.fGalleryItem .ItemfinnerGallery .fGalleryText h3 a {
+        font-size: 16px
+    }
+
+    .f-team-section li.fGalleryItem .ItemfinnerGallery .fGalleryText div.f-links a {
+        bottom: 38.2%
+    }
+
+    .f-shikha {
+        background-image: none
+    }
+
+    .races {
+        justify-content: center
+    }
+
+    .races .col-item {
+        width: 70%
+    }
+}
+
+@media(max-width:675px) {
+    .f-new-solution .fGalleryImage {
+        top: 0;
+        left: 0;
+        display: inline-block
+    }
+
+    .f-new-solution li.fGalleryItem .ItemfinnerGallery {
+        padding: 0;
+        border-top: 0;
+        border-left: 0;
+        text-align: center
+    }
+
+    .f-new-solution li.fGalleryItem {
+        padding: 10px
+    }
+
+    .f-new-solution li.fGalleryItem .ItemfinnerGallery .item h3::before,
+    .f-new-solution li.fGalleryItem .ItemfinnerGallery .item::after,
+    .f-new-solution li.fGalleryItem .ItemfinnerGallery .item::before {
+        content: none
+    }
+
+    .f-new-solution li.fGalleryItem .ItemfinnerGallery .item {
+        padding-left: 0
+    }
+}
+
+@media(max-width:575px) {
+    .f-services-home .row-headings .col-12 .fModuleTitle {
+        padding-top: 20px
+    }
+
+    .f-blogs-categories .fGalleryItem .ItemfinnerGallery {
+        height: 100%
+    }
+
+    .f-video-background-blog .f-gallery-video {
+        height: 820px
+    }
+
+    .f-about-image {
+        height: 800px
+    }
+
+    .f-about-image-home .fGalleryItem:first-child img {
+        left: 0;
+        padding-left: 0
+    }
+
+    .f-about-image-home .fGalleryItem:first-child::after {
+        content: none
+    }
+
+    .f-solution-we-provide .fGalleryItem .ItemfinnerGallery {
+        display: block;
+        text-align: center
+    }
+
+    .f-solution-we-provide .fGalleryItem .ItemfinnerGallery .fGalleryImage,
+    .f-solution-we-provide .fGalleryItem:nth-child(odd) .ItemfinnerGallery .fGalleryImage {
+        margin: 0 auto
+    }
+
+    .f-solution-we-provide .fGalleryItem .ItemfinnerGallery .fGalleryText {
+        width: 100%;
+        text-align: center
+    }
+
+    .f-solution-we-provide .fGalleryItem .ItemfinnerGallery .fGalleryText h3 {
+        text-align: center;
+        margin-top: 20px
+    }
+
+    .f-shikha .fGalleryItem .ItemfinnerGallery h3,
+    .f-shikha .fGalleryItem .ItemfinnerGallery p,
+    .f-solution-we-provide .fGalleryItem .ItemfinnerGallery .fGalleryText p {
+        text-align: center
+    }
+
+    .f-solution-we-provide .fGalleryItem:nth-child(2n),
+    .f-solution-we-provide .fGalleryItem:nth-child(odd) {
+        -webkit-animation-name: fadeInUp;
+        animation-name: fadeInUp
+    }
+
+    .f-blog-f-container {
+        padding: 10px
+    }
+
+    .f-blog-small {
+        padding-right: 10px
+    }
+
+    .f-blog-follow-subs .row-blog-follow-subs {
+        justify-content: center
+    }
+
+    .f-blog-follow-subs .row-blog-follow-subs .fModule {
+        width: 90%
+    }
+
+    #fModule-41039 .fModuleTitle h3 {
+        font-size: 20px
+    }
+
+    #fModule-41039 {
+        padding: 40px 10px 30px !important
+    }
+
+    .f-about-mva .nav-pills .nav-link {
+        font-size: 15px;
+        padding: 10px 12px
+    }
+
+    .f-about-why-bitquest .nav-pills li {
+        padding-right: 19px
+    }
+
+    .f-about-why-bitquest .nav-pills .nav-link,
+    .f-shikha-kedia .fGalleryItem .ItemfinnerGallery p {
+        font-size: 17px
+    }
+
+    .f-shikha-kedia .fGalleryItem .ItemfinnerGallery p::before {
+        width: 35px
+    }
+
+    .f-shikha-kedia .inner-shikha-name img {
+        float: none
+    }
+
+    .f-shikha-kedia .inner-shikha-name .name-texts h3 {
+        margin-top: 0
+    }
+
+    .f-shikha-kedia .inner-shikha-name .name-texts h3 span {
+        font-size: 16px
+    }
+
+    .view-default .row-matter-sidebar {
+        padding: 30px 5%
+    }
+
+    .f-shikha .fGalleryItem .fGalleryText {
+        padding-right: 4%
+    }
+
+    .f-team-section li.fGalleryItem .ItemfinnerGallery .fGalleryText div.f-links a {
+        bottom: 142px
+    }
+
+    .races .col-item {
+        width: 85%
+    }
+
+    .f-after-blog-text {
+        padding: 0 20px
+    }
+
+    .f-after-blog-container .f-after-blog-text .icon-text .text {
+        width: 100%
+    }
+}
+
+@media(max-width:475.9px) {
+    .f-career-jobs li.fGalleryItem .ItemfinnerGallery .fGalleryText {
+        display: block;
+        text-align: center;
+        padding: 20px
+    }
+
+    .f-career-jobs li.fGalleryItem .ItemfinnerGallery .fGalleryText .button,
+    .f-career-jobs li.fGalleryItem .ItemfinnerGallery .fGalleryText .text,
+    .races .col-item {
+        width: 100%
+    }
+
+    .f-career-jobs li.fGalleryItem .ItemfinnerGallery h3 {
+        margin-top: 0
+    }
+
+    .f-about-image {
+        height: 510px
+    }
+
+    #fModule--fGalleryItem-207561 {
+        top: 200px
+    }
+
+    .f-after-blog-container .f-after-blog-image .ItemfinnerGallery::after {
+        left: 10px;
+        top: 0
+    }
+}
